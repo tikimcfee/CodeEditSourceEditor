@@ -16,12 +16,12 @@ let package = Package(
     dependencies: [
         // A fast, efficient, text view for code.
         .package(
-            url: "https://github.com/CodeEditApp/CodeEditTextView.git",
+            url: "https://github.com/tikimcfee/CodeEditTextView.git",
             from: "0.7.5"
         ),
         // tree-sitter languages
         .package(
-            url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
+            url: "https://github.com/tikimcfee/CodeEditLanguages.git",
             exact: "0.1.19"
         ),
         // SwiftLint
